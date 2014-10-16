@@ -1,6 +1,9 @@
 # skiff-level
 
-LevelDB persistence provider for Skiff
+LevelDB persistence provider for [Skiff](https://github.com/pgte/skiff).
+
+[![Dependency Status](https://david-dm.org/pgte/skiff-level.svg)](https://david-dm.org/pgte/skiff-level)
+[![Build Status](https://travis-ci.org/pgte/skiff-level.svg)](https://travis-ci.org/pgte/skiff-level)
 
 ## Install
 
