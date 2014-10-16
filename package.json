@@ -1,0 +1,49 @@
+{
+  "name": "skiff-level",
+  "version": "0.5.0",
+  "description": "LevelDB persistence provider for Skiff",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test",
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore .",
+    "codestyle": "jscs -p google lib/",
+    "coverage": "open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgte/skiff-level.git"
+  },
+  "keywords": [
+    "skiff",
+    "leveldb",
+    "raft",
+    "consensus",
+    "store"
+  ],
+  "author": "pgte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgte/skiff-level/issues"
+  },
+  "homepage": "https://github.com/pgte/skiff-level",
+  "dependencies": {
+    "abstract-skiff-persistence": "0.5.1",
+    "async": "^0.9.0",
+    "level": "^0.18.0",
+    "level-sublevel": "^6.3.15",
+    "level-writestream": "^0.1.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "rimraf": "^2.2.8",
+    "istanbul": "^0.3.2",
+    "jscs": "^1.7.1",
+    "jshint": "^2.5.6",
+    "pre-commit": "0.0.9"
+  },
+  "pre-commit": [
+    "codestyle",
+    "jshint",
+    "test"
+  ]
+}
