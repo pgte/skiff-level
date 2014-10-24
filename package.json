@@ -1,6 +1,6 @@
 {
   "name": "skiff-level",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "LevelDB persistence provider for Skiff",
   "main": "lib/index.js",
   "scripts": {
